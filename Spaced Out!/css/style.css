@@ -1,0 +1,61 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  background-color: #d3d3d3;
+  font-size: 16px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1{
+  font-size: 3em;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+  float: clear;
+}
+
+.top-page, .pick-date, h2, h3{
+  display: flex;
+  justify-content: center;
+}
+.choose-date, .btn{
+  cursor: pointer;
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 9999px;
+  transition: transform 0.1s ease;
+}
+.choose-date:hover, .btn:hover{
+  transform: scale(1.2);
+}
+.vid{
+  display: none;
+}
+p{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 0 5% 0;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
